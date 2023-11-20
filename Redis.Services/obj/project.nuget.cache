@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "ALNAWG5afxn87N+w6kVf2CNNUv6CfYOU00/Dq8ttH6xUUgdEs8CGIk0ijxgtd+YotlI5URsANFj4U3Lc73TtDw==",
+  "success": true,
+  "projectFilePath": "/Users/pavelvilkov/Desktop/projects/Redis.WebApi/Redis.Services/Redis.Services.csproj",
+  "expectedPackageFiles": [
+    "/Users/pavelvilkov/.nuget/packages/microsoft.netcore.app.ref/6.0.25/microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
+    "/Users/pavelvilkov/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.25/microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512"
+  ],
+  "logs": []
+}

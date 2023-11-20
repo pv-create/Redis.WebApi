@@ -1,0 +1,31 @@
+version: '3.4'
+
+services:
+  redis.webapi:
+    image: ${DOCKER_REGISTRY-}rediswebapi
+    build:
+      context: .
+      dockerfile: Redis.WebApi/Dockerfile
+    ports:
+        - "3001:443"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development 
+      - "CacheSettings__RedisCache=stackupRedis:6379"
+
+  testredis-db:
+    image: mcr.microsoft.com/mssql/server
+    container_name: TestRedis.Db
+    volumes:
+        - ./.containers/database:/var/opt/mssql/data
+    ports:
+       - "1433:1433"
+    environment:
+        ACCEPT_EULA: "Y"
+        SA_PASSWORD: "Strong_password_123!"
+
+  stackupRedis:
+    image: redis:alpine
+    container_name: stackupRedis
+    restart: always
+    ports:
+      - "6379:6379"

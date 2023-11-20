@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "eT2GQB4ER3Um2u1u68HwK1RWDogMtGWUSKwEk1Fe98U=",
+  "Source": "Redis.WebApi",
+  "BasePath": "_content/Redis.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

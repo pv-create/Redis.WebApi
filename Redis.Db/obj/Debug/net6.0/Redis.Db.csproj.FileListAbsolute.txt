@@ -1,0 +1,15 @@
+C:\Users\vilkov_pyu\projects\redis\Redis.WebApi\Redis.Db\bin\Debug\net6.0\Redis.Db.deps.json
+C:\Users\vilkov_pyu\projects\redis\Redis.WebApi\Redis.Db\bin\Debug\net6.0\Redis.Db.dll
+C:\Users\vilkov_pyu\projects\redis\Redis.WebApi\Redis.Db\bin\Debug\net6.0\Redis.Db.pdb
+C:\Users\vilkov_pyu\projects\redis\Redis.WebApi\Redis.Db\bin\Debug\net6.0\Redis.Services.dll
+C:\Users\vilkov_pyu\projects\redis\Redis.WebApi\Redis.Db\bin\Debug\net6.0\Redis.Services.pdb
+C:\Users\vilkov_pyu\projects\redis\Redis.WebApi\Redis.Db\obj\Debug\net6.0\Redis.Db.csproj.AssemblyReference.cache
+C:\Users\vilkov_pyu\projects\redis\Redis.WebApi\Redis.Db\obj\Debug\net6.0\Redis.Db.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vilkov_pyu\projects\redis\Redis.WebApi\Redis.Db\obj\Debug\net6.0\Redis.Db.AssemblyInfoInputs.cache
+C:\Users\vilkov_pyu\projects\redis\Redis.WebApi\Redis.Db\obj\Debug\net6.0\Redis.Db.AssemblyInfo.cs
+C:\Users\vilkov_pyu\projects\redis\Redis.WebApi\Redis.Db\obj\Debug\net6.0\Redis.Db.csproj.CoreCompileInputs.cache
+C:\Users\vilkov_pyu\projects\redis\Redis.WebApi\Redis.Db\obj\Debug\net6.0\Redis.Db.csproj.CopyComplete
+C:\Users\vilkov_pyu\projects\redis\Redis.WebApi\Redis.Db\obj\Debug\net6.0\Redis.Db.dll
+C:\Users\vilkov_pyu\projects\redis\Redis.WebApi\Redis.Db\obj\Debug\net6.0\refint\Redis.Db.dll
+C:\Users\vilkov_pyu\projects\redis\Redis.WebApi\Redis.Db\obj\Debug\net6.0\Redis.Db.pdb
+C:\Users\vilkov_pyu\projects\redis\Redis.WebApi\Redis.Db\obj\Debug\net6.0\ref\Redis.Db.dll

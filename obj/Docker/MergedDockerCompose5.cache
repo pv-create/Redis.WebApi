@@ -1,0 +1,29 @@
+services:
+  redis.webapi:
+    build:
+      context: C:\Users\vilkov_pyu\projects\redis\Redis.WebApi
+      dockerfile: Redis.WebApi/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: rediswebapi
+    ports:
+    - target: 80
+    - published: 5001
+      target: 443
+    - target: 443
+    volumes:
+    - C:\Users\vilkov_pyu\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\vilkov_pyu\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+  testredis-db:
+    container_name: TestRedis.Db
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: Strong_password_123!
+    image: mcr.microsoft.com/mssql/server
+    ports:
+    - published: 1433
+      target: 1433
+    volumes:
+    - C:\Users\vilkov_pyu\projects\redis\Redis.WebApi\.containers\database:/var/opt/mssql/data:rw
+version: '3.4'
